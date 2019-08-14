@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<title>admin</title>
+<script>
+var arr=[];
+function validate()
+{
+var categoryName=document.forms["myform"]["categoryName"].value
+
+console.log(categoryName.trim().length)
+
+if(categoryName.trim().length==0 )
+{
+console.log("there is no character")
+}
+else
+{
+var user={"categoryName":categoryName}
+arr.push(user)
+}}
+function display()
+{
+document.write("<table border='2'>")
+document.write("<th>categoryName</th>")
+
+for(i=0;i<arr.length;i++)
+{
+document.write("<tr>")
+document.write("<td>")
+document.write(arr[i].categoryName)
+document.write("</td>")
+
+document.write("</tr>")
+}}
+</script>
+</head>
+<body>
+<h1>categoryPage</h1>
+<form name="myform">
+<div>
+Enter the categoryName
+<input type='text' name='categoryName' placeholder='categoryName' size='40'/><br>
+
+<input type='button' value='Proceed' onclick='validate()'/>
+<input type='button' value='Display' onclick='display()'/></div></form>
+</body>
+</html>
+
+
+
+
+
+
+
+

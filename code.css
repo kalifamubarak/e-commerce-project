@@ -1,0 +1,83 @@
+body {
+  background-color: WHITE;
+}
+a:hover{
+background-color:#fff;
+color:#000;
+}
+figure
+{
+display:inline-block;
+}
+figure:hover
+{
+background-color:#fff;
+color:#000;
+}
+.hr
+{
+text-align:center;
+background-color:grey;
+}
+
+figcaption
+{
+text-align:center;
+}
+
+h2
+{
+text-align:center;
+  text-shadow: 2px 2px;
+}
+
+
+header 
+{
+text-align:center;
+
+padding:10px;
+color:black;
+
+}
+input
+{
+float:left;
+}
+a
+{
+font-size:20;
+display:inline-block;
+text-align:right;
+padding:5px 5px;
+}
+img{
+  width: 250;
+  height: 250;
+ 
+  -webkit-transition: width 2s; 
+  transition: width 2s height2s;
+}
+img:hover {
+  width: 300px;
+}
+
+button
+{
+background-color:grey;
+color:grey;
+text-align:center;
+text-decoration:none;
+margin:2 1;
+}
+.myHeader
+ {
+  background-color: black;
+  color: white;
+  padding: 40px;
+  text-align: center;
+} 
+ul.a
+{
+list-style-type:circle;
+}
